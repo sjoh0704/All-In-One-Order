@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: order-url
 data:
-  ORDER_SERVICE_URL: 'http://order.default.svc:8080'
+  PRODUCT_SERVICE_URL: 'http://product.default.svc:8080'
   USER_SERVICE_URL: 'http://user.default.svc:8080'
   CART_SERVICE_URL: 'http://cart.default.svc:8080'
   RATING_SERVICE_URL: 'http://rating.default.svc:8080'
